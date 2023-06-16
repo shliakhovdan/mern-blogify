@@ -1,4 +1,6 @@
+// Modules
 import React from 'react';
+// Styles
 import styles from './UserInfo.module.scss';
 
 export const UserInfo = ({ avatarUrl, fullName, additionalText }) => {

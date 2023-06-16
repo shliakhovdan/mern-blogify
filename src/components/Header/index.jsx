@@ -1,8 +1,9 @@
+// Modules
 import React from 'react';
 import Button from '@mui/material/Button';
-
-import styles from './Header.module.scss';
 import Container from '@mui/material/Container';
+// Styles
+import styles from './Header.module.scss';
 
 export const Header = () => {
   const isAuth = false;

@@ -1,9 +1,10 @@
+// Modules
 import React from 'react';
 import TextField from '@mui/material/TextField';
 import Paper from '@mui/material/Paper';
 import Button from '@mui/material/Button';
 import SimpleMDE from 'react-simplemde-editor';
-
+// Styles
 import 'easymde/dist/easymde.min.css';
 import styles from './AddPost.module.scss';
 

@@ -1,8 +1,9 @@
-import React from "react";
-
-import { Post } from "../components/Post";
-import { Index } from "../components/AddComment";
-import { CommentsBlock } from "../components/CommentsBlock";
+// Modules
+import React from 'react';
+// Components
+import { Post } from '../components/Post';
+import { Index } from '../components/AddComment';
+import { CommentsBlock } from '../components/CommentsBlock';
 
 export const FullPost = () => {
   return (

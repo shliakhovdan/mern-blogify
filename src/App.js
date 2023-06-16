@@ -1,7 +1,9 @@
-import Container from "@mui/material/Container";
+// Modules
+import Container from '@mui/material/Container';
 
-import { Header } from "./components";
-import { Home, FullPost, Registration, AddPost, Login } from "./pages";
+// Components
+import { Header } from './components';
+import { Home, FullPost, Registration, AddPost, Login } from './pages';
 
 function App() {
   return (

@@ -1,13 +1,17 @@
-import React from "react";
-import ReactDOM from "react-dom/client";
-import App from "./App";
-import CssBaseline from "@mui/material/CssBaseline";
+// Modules
+import React from 'react';
+import ReactDOM from 'react-dom/client';
+import { ThemeProvider } from '@mui/material';
+import CssBaseline from '@mui/material/CssBaseline';
 
-import "./index.scss";
-import { ThemeProvider } from "@mui/material";
-import { theme } from "./theme";
+// Components
+import App from './App';
+import { theme } from './theme';
+// Styles
+import './index.scss';
 
-const root = ReactDOM.createRoot(document.getElementById("root"));
+
+const root = ReactDOM.createRoot(document.getElementById('root'));
 
 root.render(
   <React.StrictMode>

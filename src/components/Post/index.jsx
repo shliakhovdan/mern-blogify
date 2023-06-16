@@ -1,3 +1,4 @@
+// Modules
 import React from 'react';
 import clsx from 'clsx';
 import IconButton from '@mui/material/IconButton';
@@ -5,8 +6,9 @@ import DeleteIcon from '@mui/icons-material/Clear';
 import EditIcon from '@mui/icons-material/Edit';
 import EyeIcon from '@mui/icons-material/RemoveRedEyeOutlined';
 import CommentIcon from '@mui/icons-material/ChatBubbleOutlineOutlined';
-
+// Styles
 import styles from './Post.module.scss';
+// Components
 import { UserInfo } from '../UserInfo';
 import { PostSkeleton } from './Skeleton';
 
